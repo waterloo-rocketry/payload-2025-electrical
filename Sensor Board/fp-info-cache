@@ -1,4 +1,4 @@
-23105496295686282
+23108972984479481
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2715,6 +2715,20 @@ FXLS8974CFR3
 0
 10
 10
+Canhw
+HDS001L
+HDS001L-1
+Switch
+0
+2
+2
+Canhw
+HDS001R
+HDS001R-3
+Switch
+0
+2
+2
 Canhw
 ICM-20948
 
