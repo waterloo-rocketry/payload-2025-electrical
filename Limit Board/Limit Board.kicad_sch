@@ -167,6 +167,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HDS001R:HDS001R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -401,9 +503,41 @@
 			)
 		)
 	)
+	(junction
+		(at 48.26 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00627845-6150-4104-9ce1-45186f2b009f")
+	)
+	(junction
+		(at 48.26 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7f37b7a-02d4-4c22-87f8-bafb3a29a870")
+	)
 	(wire
 		(pts
-			(xy 44.45 93.98) (xy 54.61 93.98)
+			(xy 48.26 96.52) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c30b43f-1a8d-4bba-a89f-95010b84038e")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f807c3-ba30-4cbf-bf51-8dee21427fd2")
+	)
+	(wire
+		(pts
+			(xy 44.45 93.98) (xy 48.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -413,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 96.52) (xy 54.61 96.52)
+			(xy 44.45 96.52) (xy 48.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -486,6 +620,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e01d824-4ded-4ead-a2db-3990d776a10f")
+		(property "Reference" "TP1"
+			(at 50.8 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8f2c9d9-6b46-4ac6-9002-7a5e7ba71bc3")
+		)
+		(instances
+			(project "Limit Board"
+				(path "/ea187ac2-8767-428a-9ee5-fc9efda02a98"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HDS001R:HDS001R")
 		(at 44.45 96.52 180)
 		(unit 1)
@@ -511,7 +713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HDS001R"
+		(property "Footprint" "Canhw:HDS001R"
 			(at 25.4 1.6 0)
 			(effects
 				(font
@@ -600,6 +802,74 @@
 			(project "Limit Board"
 				(path "/ea187ac2-8767-428a-9ee5-fc9efda02a98"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e8398f-b1ad-408a-b1aa-9d160630380e")
+		(property "Reference" "TP2"
+			(at 50.8 98.5519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 101.0919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2778874-eefe-49d8-8727-2ad70d4e9f5a")
+		)
+		(instances
+			(project "Limit Board"
+				(path "/ea187ac2-8767-428a-9ee5-fc9efda02a98"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
