@@ -3752,7 +3752,7 @@
 		(uuid "f55a6c60-462d-42fe-9972-5668b768458c")
 	)
 	(no_connect
-		(at 147.32 77.47)
+		(at 110.49 59.69)
 		(uuid "0418ec3d-078d-4720-bbf0-2b532960ba46")
 	)
 	(no_connect
@@ -3780,16 +3780,20 @@
 		(uuid "4057c61d-71f1-4928-b056-d883296439ff")
 	)
 	(no_connect
-		(at 147.32 67.31)
-		(uuid "43c54575-43e5-4fbb-a1c3-1d86bd0e4d58")
-	)
-	(no_connect
 		(at 147.32 72.39)
 		(uuid "55718d63-e0ef-43ea-94b2-11c175e11f5d")
 	)
 	(no_connect
+		(at 110.49 80.01)
+		(uuid "85bbe907-bfd8-4b98-aae5-ff6017b99ae3")
+	)
+	(no_connect
 		(at 22.86 116.84)
 		(uuid "93c8bb97-3d2d-4be9-993a-e166e87ec066")
+	)
+	(no_connect
+		(at 110.49 82.55)
+		(uuid "9b7bffd4-85ce-461f-b122-f7a541e6daf1")
 	)
 	(no_connect
 		(at 147.32 74.93)
@@ -3806,10 +3810,6 @@
 	(no_connect
 		(at 22.86 109.22)
 		(uuid "f4eae535-46c2-4c75-ac0d-81751d9e9073")
-	)
-	(no_connect
-		(at 147.32 64.77)
-		(uuid "f586fe10-eebd-49ec-8d80-0a9024489370")
 	)
 	(wire
 		(pts
@@ -3920,16 +3920,6 @@
 			(type default)
 		)
 		(uuid "1711cb78-483f-488f-840c-aee99a962c8d")
-	)
-	(wire
-		(pts
-			(xy 104.14 82.55) (xy 110.49 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a46752d-e2e4-4c73-a76b-e763b066e651")
 	)
 	(wire
 		(pts
@@ -4283,16 +4273,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 80.01) (xy 110.49 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fcc674e-8006-4685-894b-60087faff91e")
-	)
-	(wire
-		(pts
 			(xy 110.49 52.07) (xy 86.36 52.07)
 		)
 		(stroke
@@ -4420,16 +4400,6 @@
 			(type default)
 		)
 		(uuid "76682224-6645-43f9-9c3c-3e01a9f1ee2c")
-	)
-	(wire
-		(pts
-			(xy 97.79 59.69) (xy 110.49 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a449435-08f0-4e7c-93ee-41a2ce042768")
 	)
 	(wire
 		(pts
@@ -5036,7 +5006,6 @@
 	)
 	(label "CAN_RX"
 		(at 100.33 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5047,7 +5016,6 @@
 	)
 	(label "ICSPCLK"
 		(at 156.21 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5058,7 +5026,6 @@
 	)
 	(label "LIM_2"
 		(at 231.14 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5069,7 +5036,6 @@
 	)
 	(label "CANL"
 		(at 236.22 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,7 +5046,6 @@
 	)
 	(label "CAN_TX"
 		(at 100.33 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5091,7 +5056,6 @@
 	)
 	(label "MTR_IN"
 		(at 156.21 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5102,7 +5066,6 @@
 	)
 	(label "MTR_ON"
 		(at 16.51 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5113,7 +5076,6 @@
 	)
 	(label "MTR_IN"
 		(at 33.02 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5124,7 +5086,6 @@
 	)
 	(label "CANH"
 		(at 236.22 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5135,7 +5096,6 @@
 	)
 	(label "CANH"
 		(at 203.2 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5146,7 +5106,6 @@
 	)
 	(label "OSC1"
 		(at 143.51 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5157,7 +5116,6 @@
 	)
 	(label "OSC2"
 		(at 100.33 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5168,7 +5126,6 @@
 	)
 	(label "OSC1"
 		(at 100.33 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5179,7 +5136,6 @@
 	)
 	(label "OSC2"
 		(at 143.51 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5190,7 +5146,6 @@
 	)
 	(label "LIM_1"
 		(at 250.19 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5201,7 +5156,6 @@
 	)
 	(label "LIM_1"
 		(at 104.14 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5212,7 +5166,6 @@
 	)
 	(label "LIM_2"
 		(at 104.14 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5223,7 +5176,6 @@
 	)
 	(label "ICSPCLK"
 		(at 50.8 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5234,7 +5186,6 @@
 	)
 	(label "ICSPDAT"
 		(at 50.8 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5245,7 +5196,6 @@
 	)
 	(label "MTR_IN"
 		(at 207.01 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5256,7 +5206,6 @@
 	)
 	(label "CAN_TX"
 		(at 189.23 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5266,8 +5215,7 @@
 		(uuid "add092c3-9c81-4810-9287-f758b71a35ef")
 	)
 	(label "LIM_1"
-		(at 104.14 80.01 0)
-		(fields_autoplaced yes)
+		(at 147.32 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5278,7 +5226,6 @@
 	)
 	(label "MTR_ON"
 		(at 156.21 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5289,7 +5236,6 @@
 	)
 	(label "~{MCLR}"
 		(at 34.29 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5300,7 +5246,6 @@
 	)
 	(label "CAN_RX"
 		(at 189.23 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5310,8 +5255,7 @@
 		(uuid "cf1f283d-a10e-4411-948b-11e0ba409391")
 	)
 	(label "LIM_2"
-		(at 104.14 82.55 0)
-		(fields_autoplaced yes)
+		(at 147.32 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5322,7 +5266,6 @@
 	)
 	(label "~{MCLR}"
 		(at 100.33 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5332,8 +5275,7 @@
 		(uuid "d7f928d6-081c-4df8-a50f-f0422870e682")
 	)
 	(label "CURR_SENS"
-		(at 97.79 59.69 0)
-		(fields_autoplaced yes)
+		(at 147.32 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5344,7 +5286,6 @@
 	)
 	(label "ICSPDAT"
 		(at 156.21 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5355,7 +5296,6 @@
 	)
 	(label "CURR_SENS"
 		(at 267.97 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5366,7 +5306,6 @@
 	)
 	(label "CANL"
 		(at 203.2 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5459,7 +5398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12MHz Crystal "
+		(property "Value" "12MHz Crystal"
 			(at 136.6774 112.903 90)
 			(effects
 				(font
@@ -7014,7 +6953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Canhw:PinSocket_5x2.54_SMD_90deg_952-3198-1-ND"
+		(property "Footprint" "canhw:PinSocket_5x2.54_SMD_90deg_952-3198-1-ND"
 			(at 21.59 76.2 0)
 			(effects
 				(font
@@ -7091,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Canhw:connector_Harwin_G125–MG10605M4P"
+		(property "Footprint" "canhw:connector_Harwin_G125–MG10605M4P"
 			(at 17.78 114.3 0)
 			(effects
 				(font
@@ -9619,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Canhw:connector_Harwin_G125–MG10605M4P"
+		(property "Footprint" "canhw:connector_Harwin_G125–MG10605M4P"
 			(at 185.42 105.41 0)
 			(effects
 				(font
