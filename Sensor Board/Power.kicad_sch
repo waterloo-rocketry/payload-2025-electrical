@@ -2815,7 +2815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1441e54f-abc8-4509-85ad-fdc3eca785ad")
-		(property "Reference" "H?"
+		(property "Reference" "H3"
 			(at 125.73 134.6199 0)
 			(effects
 				(font
@@ -2866,7 +2866,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "H?")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2946,7 +2946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22d42453-84c7-4e70-a778-b2588449c7bb")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 173.101 59.7916 0)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3025,7 +3025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284151fa-7b81-4ed8-882c-19019ef4634f")
-		(property "Reference" "C?"
+		(property "Reference" "C20"
 			(at 212.09 99.0599 0)
 			(effects
 				(font
@@ -3043,7 +3043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 209.2452 104.14 0)
 			(effects
 				(font
@@ -3079,7 +3079,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "C?")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a29836c-8843-4323-b08e-458da3a39a16")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 211.201 59.7916 0)
 			(effects
 				(font
@@ -3287,7 +3287,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e23c765-f2cd-4134-81de-5db657ceba60")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 193.04 88.9 0)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 		(instances
 			(project ""
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3374,7 +3374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5558b55a-1c15-4334-a726-819972372bd5")
-		(property "Reference" "NT?"
+		(property "Reference" "NT1"
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "NT?")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -3767,7 +3767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73373370-a088-4b25-b367-7e375cf7bc73")
-		(property "Reference" "H?"
+		(property "Reference" "H4"
 			(at 125.73 144.7799 0)
 			(effects
 				(font
@@ -3818,7 +3818,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "H?")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3834,7 +3834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a3d0c29-c1b0-4cae-a634-4a3f009b265b")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 48.26 33.02 0)
 			(effects
 				(font
@@ -3900,7 +3900,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3981,7 +3981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93d82393-ec03-4a51-89e6-3b50b515d5e4")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 102.87 97.1042 0)
 			(effects
 				(font
@@ -4051,7 +4051,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4131,7 +4131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "992aeb46-9630-48aa-8def-87c2c5819786")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 108.204 46.228 0)
 			(effects
 				(font
@@ -4180,7 +4180,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4262,7 +4262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d5a9eec-a727-4b5e-b876-3e267f7afef3")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 173.99 99.0599 0)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.1452 104.14 0)
 			(effects
 				(font
@@ -4316,7 +4316,7 @@
 		(instances
 			(project ""
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a10dac51-6995-4396-ac49-0446484ad087")
-		(property "Reference" "H?"
+		(property "Reference" "H2"
 			(at 102.87 144.7799 0)
 			(effects
 				(font
@@ -4382,7 +4382,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "H?")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3a3d9dc-7964-45cb-ab94-33bd118bbeba")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 209.55 45.212 0)
 			(effects
 				(font
@@ -4448,7 +4448,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "TP?")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4464,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44b0d36-d8fd-4d3b-b4df-34f9f7f0c92f")
-		(property "Reference" "C?"
+		(property "Reference" "C22"
 			(at 227.33 99.0599 0)
 			(effects
 				(font
@@ -4482,7 +4482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 224.4852 104.14 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "C?")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4599,7 +4599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad5a98af-5aea-476f-84b7-d871c55cb496")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 83.82 45.593 90)
 			(effects
 				(font
@@ -4660,7 +4660,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4675,7 +4675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1d3e769-551f-4d3d-b65a-e27c4966dd23")
-		(property "Reference" "C?"
+		(property "Reference" "C21"
 			(at 225.171 57.2516 0)
 			(effects
 				(font
@@ -4738,7 +4738,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "C?")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b637f910-ad8b-46c3-9fa7-e51a2ac0cab0")
-		(property "Reference" "TP?"
+		(property "Reference" "TP3"
 			(at 210.82 90.932 0)
 			(effects
 				(font
@@ -4804,7 +4804,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "TP?")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4819,7 +4819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7e9d9e3-556b-4b67-8c10-d556bed9d9dd")
-		(property "Reference" "H?"
+		(property "Reference" "H1"
 			(at 102.87 134.6199 0)
 			(effects
 				(font
@@ -4870,7 +4870,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "H?")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4950,7 +4950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7ce5543-0a18-4288-9b00-52b5ac9a802d")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 193.675 47.625 0)
 			(effects
 				(font
@@ -5020,7 +5020,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0c1d1f4-fa7d-4096-9809-2894a6ce9a4e")
-		(property "Reference" "F?"
+		(property "Reference" "F1"
 			(at 68.58 45.212 90)
 			(effects
 				(font
@@ -5165,7 +5165,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "F?")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5180,7 +5180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1791e8c-b038-4e95-bdcd-60b79e29b30a")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 124.841 71.2216 0)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 		(instances
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
