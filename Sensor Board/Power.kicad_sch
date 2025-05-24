@@ -1966,12 +1966,6 @@
 		(uuid "3c19acff-eefe-4423-b124-510ef8e710a6")
 	)
 	(junction
-		(at 123.19 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52747d5a-2c95-4f2c-bc4a-2693340ee8f1")
-	)
-	(junction
 		(at 144.78 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2161,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 139.7) (xy 100.33 140.97)
+			(xy 93.98 139.7) (xy 93.98 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2308,16 +2302,6 @@
 			(type default)
 		)
 		(uuid "9242d764-5af4-4934-9780-af36e19b12ac")
-	)
-	(wire
-		(pts
-			(xy 100.33 140.97) (xy 123.19 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96dd0d39-6875-4235-8add-cc41e0d76876")
 	)
 	(wire
 		(pts
@@ -4542,7 +4526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3D"
 			(at 97.028 58.928 0)
 			(effects
 				(font
@@ -4812,7 +4796,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 137.16 0)
+		(at 93.98 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4820,7 +4804,7 @@
 		(dnp no)
 		(uuid "b7e9d9e3-556b-4b67-8c10-d556bed9d9dd")
 		(property "Reference" "H1"
-			(at 102.87 134.6199 0)
+			(at 96.52 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4813,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 102.87 137.1599 0)
+			(at 96.52 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4822,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 100.33 137.16 0)
+			(at 93.98 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 137.16 0)
+			(at 93.98 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +4840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 137.16 0)
+			(at 93.98 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,6 +5228,72 @@
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c18cc4-82b9-4726-8f89-7b2ee6739372")
+		(property "Reference" "#PWR11"
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52664db4-d603-4ab3-ad6e-79b11156ce22")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/53f15c84-d39c-4951-aa92-80979a6364f3"
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)

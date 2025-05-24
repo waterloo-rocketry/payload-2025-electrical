@@ -1921,6 +1921,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 68.58) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48eea6cf-3c0e-4ec9-8bf9-cc484f27e089")
+	)
+	(wire
+		(pts
+			(xy 110.49 67.31) (xy 113.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6c1df7-d5b4-42ed-8ef3-1eaffcffa613")
+	)
+	(wire
+		(pts
 			(xy 135.89 132.08) (xy 152.4 132.08)
 		)
 		(stroke
@@ -1948,6 +1968,16 @@
 			(type default)
 		)
 		(uuid "5863d5dd-5a20-4532-8cb2-f31dcf2b8255")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d123f42-9d6b-4446-bc3c-0eb7042708f5")
 	)
 	(wire
 		(pts
@@ -2948,6 +2978,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 120.65 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f417d55-e994-4f8f-940b-7c994a202c0e")
+		(property "Reference" "#PWR5"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b081a9-66f8-40cc-8be6-fe4e2fb93523")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/cba3e165-ed91-47ad-a83d-245f40c489c2"
+					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 115.57 109.22 90)
 		(unit 1)
@@ -3235,7 +3331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3A"
+		(property "Value" "+3V3D"
 			(at 211.328 20.828 0)
 			(effects
 				(font
@@ -3278,6 +3374,74 @@
 			(project "Sensor Board"
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/cba3e165-ed91-47ad-a83d-245f40c489c2"
 					(reference "#PWR37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "682c13bc-a998-45e5-8a7c-959889102568")
+		(property "Reference" "C23"
+			(at 115.5763 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 115.5763 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51bbb59a-a83b-488b-9566-4c4acc2f3ce8")
+		)
+		(pin "1"
+			(uuid "ac20fd20-7c25-4f15-b10c-40e43b438780")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/cba3e165-ed91-47ad-a83d-245f40c489c2"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4020,7 +4184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -4328,10 +4492,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d55c7855-8a91-443c-b835-36c2a54c4e5b")
 		(property "Reference" "U4"
-			(at 123.19 71.1514 0)
+			(at 117.094 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4502,7 @@
 			)
 		)
 		(property "Value" "OPA323"
-			(at 123.19 73.6914 0)
+			(at 117.094 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
