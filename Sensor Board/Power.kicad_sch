@@ -3852,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Canhw:connector_Harwin_G125–MG10605M4P"
+		(property "Footprint" "canhw:connector_Harwin_G125–MG10605M4P"
 			(at 44.45 45.72 0)
 			(effects
 				(font

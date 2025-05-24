@@ -5318,7 +5318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Canhw:microSD_Molex_WM6698CT-ND"
+		(property "Footprint" "canhw:microSD_Molex_WM6698CT-ND"
 			(at 148.59 152.4 0)
 			(effects
 				(font
@@ -5771,7 +5771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Canhw:PinSocket_5x2.54_SMD_90deg_952-3198-1-ND"
+		(property "Footprint" "canhw:PinSocket_5x2.54_SMD_90deg_952-3198-1-ND"
 			(at 210.82 34.29 0)
 			(effects
 				(font

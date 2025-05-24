@@ -4020,7 +4020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP20_ST_MCH"
+		(property "Footprint" ""
 			(at 158.75 67.31 0)
 			(effects
 				(font
