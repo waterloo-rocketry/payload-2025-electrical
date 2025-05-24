@@ -37,8 +37,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.0,
+          "drill": 0.6,
+          "height": 1.0,
           "width": 1.0
         },
         "silk_line_width": 0.15,
@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "footprint_type_mismatch|110987500|59420000|bfb2fcdd-8339-4b3d-b8b0-3a578367b942|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|116000000|83250000|1cefc4d3-24e5-4588-bed8-001bdf2514af|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -127,10 +130,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.381,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2032,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.762,
+        "min_via_diameter": 0.381,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -668,6 +671,10 @@
     [
       "cba3e165-ed91-47ad-a83d-245f40c489c2",
       "Sensing"
+    ],
+    [
+      "53f15c84-d39c-4951-aa92-80979a6364f3",
+      "Power"
     ]
   ],
   "text_variables": {}
