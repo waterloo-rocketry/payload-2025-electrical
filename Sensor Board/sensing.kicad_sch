@@ -1710,6 +1710,12 @@
 		(uuid "5bd740f8-a8ef-4523-ac53-08add64e22c2")
 	)
 	(junction
+		(at 149.86 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c042f3b-4546-4f4d-8cfd-5a1cdd7347b0")
+	)
+	(junction
 		(at 96.52 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1861,6 +1867,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 132.08) (xy 152.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff6e6e9-85cd-4292-b946-4d1f03501439")
+	)
+	(wire
+		(pts
 			(xy 130.81 77.47) (xy 130.81 99.06)
 		)
 		(stroke
@@ -1941,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 132.08) (xy 152.4 132.08)
+			(xy 135.89 132.08) (xy 149.86 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2469,7 +2485,7 @@
 		)
 		(uuid "ff89770f-5af9-4d29-8494-aa9db5f78b23")
 	)
-	(text "Voltage Reference w/ Buffer"
+	(text "+3V Voltage Reference w/ Buffer"
 		(exclude_from_sim no)
 		(at 118.618 143.51 0)
 		(effects
@@ -3314,6 +3330,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b82739-c055-4ca2-9524-61c6d201995d")
+		(property "Reference" "#PWR51"
+			(at 149.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 152.4 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148536bb-5b01-453f-8e01-d305774dc4ef")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/cba3e165-ed91-47ad-a83d-245f40c489c2"
+					(reference "#PWR51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 214.63 25.4 0)
 		(unit 1)
@@ -4023,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP1501-25xSN"
+		(property "Value" "MCP1501-30xSN"
 			(at 120.3041 121.92 0)
 			(effects
 				(font
@@ -4041,7 +4124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/microchip-technology/MCP1501-25E-SN/5844596"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/microchip-technology/MCP1501-30E-SN/5844597?s=N4IgTCBcDaILIGEAKBGArABhQWgMwZAF0BfIA"
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -4277,6 +4360,76 @@
 			(project ""
 				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/cba3e165-ed91-47ad-a83d-245f40c489c2"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.86 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c753765a-e83f-49d6-b174-29e3b49ee783")
+		(property "Reference" "C24"
+			(at 152.4 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 152.4 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7853455-7308-4498-9c35-2ceac05c0620")
+		)
+		(pin "1"
+			(uuid "a5859589-28b5-4f93-84c6-1a54eadae050")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/82a9869f-36b9-4173-b7be-dd71d5b66335/cba3e165-ed91-47ad-a83d-245f40c489c2"
+					(reference "C24")
 					(unit 1)
 				)
 			)

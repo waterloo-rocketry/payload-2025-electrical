@@ -3343,10 +3343,6 @@
 		(uuid "f681eef7-76b2-4a20-bff8-d98e79cdfbda")
 	)
 	(no_connect
-		(at 166.37 52.07)
-		(uuid "01755b07-7d3e-4c54-98c9-8320dc2befd8")
-	)
-	(no_connect
 		(at 166.37 59.69)
 		(uuid "2db10ec4-a4c8-4fb1-8906-82cc8a8223e2")
 	)
@@ -3361,6 +3357,10 @@
 	(no_connect
 		(at 96.52 152.4)
 		(uuid "9666a540-351d-4e79-be48-9359d791d988")
+	)
+	(no_connect
+		(at 129.54 44.45)
+		(uuid "9aa4b064-9431-40df-a2a8-bff116f679ba")
 	)
 	(no_connect
 		(at 166.37 64.77)
@@ -4539,12 +4539,12 @@
 		(uuid "a9cec6e6-4626-4b21-a9da-c35bf681e524")
 	)
 	(label "MCLKIN"
-		(at 129.54 44.45 180)
+		(at 166.37 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b05f6ae0-24f0-41ca-9847-665b562e878c")
 	)
@@ -5453,7 +5453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "330R"
 			(at 104.648 45.593 0)
 			(effects
 				(font
@@ -5665,7 +5665,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "10uF"
 			(at 229.87 91.4399 0)
 			(effects
 				(font
@@ -6873,7 +6873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "500R"
 			(at 90.17 44.4499 0)
 			(effects
 				(font
@@ -7181,7 +7181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "500R"
 			(at 76.708 44.323 0)
 			(effects
 				(font

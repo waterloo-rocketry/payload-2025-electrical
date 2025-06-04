@@ -2614,7 +2614,7 @@
 		)
 		(uuid "1783e392-31cc-4656-a13f-bf28f21e5b5b")
 	)
-	(text "max I_{d} =\n250 mA"
+	(text "max I_{d} =\n350 mA"
 		(exclude_from_sim no)
 		(at 80.01 58.42 0)
 		(effects
@@ -2627,7 +2627,7 @@
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 49.53 45.72 0)
+		(at 49.53 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +2638,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 49.53 43.18 0)
+		(at 49.53 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4591,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Value" "200mR"
+		(property "Value" "93.1mR"
 			(at 83.82 47.9044 90)
 			(effects
 				(font
