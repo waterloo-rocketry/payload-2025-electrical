@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PayloadSensorSymbols")(type "KiCad")(uri "${KIPRJMOD}/PayloadSensorSymbols.kicad_sym")(options "")(descr ""))
+)
